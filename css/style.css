@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+canvas  {
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .75s;
+}
