@@ -89,6 +89,7 @@ var Engine = (function (global) {
                 player.height + player.y > enemy.y) {
                 // collision detected!
                 removeLive();
+                w.removeAttribute("style");
 
             }
         });
