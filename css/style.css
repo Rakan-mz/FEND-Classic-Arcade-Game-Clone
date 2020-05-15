@@ -1,9 +1,37 @@
-body {
-    text-align: center;
-}
+
 
 canvas  {
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
 	animation-duration: .75s;
 }
+
+
+  
+body {
+    text-align: center;
+    zoom: 84%;
+    background: url(../images/2.png);
+
+}
+
+ul {
+    margin-bottom: -30px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.game-starter h2 {
+    margin-bottom: 0;
+}
+.game-starter .char-image.active {
+    background: url(../images/Selector.png);
+}
+
+
+
